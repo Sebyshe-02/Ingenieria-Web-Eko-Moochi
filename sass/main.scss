@@ -1,8 +1,4 @@
-  body{
-    background-image: url(../img/background.jpeg);
-    background-color: #cccc;
-    background-size: 1400px 1500px;
-  }
+
 
 /*logo*/  
   h1 {
@@ -49,9 +45,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    width: 1407px;
-    transform: translate(110px,-50px);
   }
 
   li {
@@ -69,4 +62,7 @@
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+  }
+  #navbar{
+    background-color: gray;
   }

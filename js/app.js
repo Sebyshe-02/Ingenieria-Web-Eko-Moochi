@@ -15,7 +15,7 @@ $(document).ready(function () {
         return false;
         } else if (usernameValue.length < 3 || usernameValue.length > 10) {
         $("#usercheck").show();
-        $("#usercheck").html("**length of username must be between 3 and 10");
+        $("#usercheck").html("**Debe tener un largo minimo de 3 y maximo 10 caracteres");
         usernameError = false;
         return false;
         } else {
@@ -53,7 +53,7 @@ $(document).ready(function () {
         if (passwordValue.length < 3 || passwordValue.length > 10) {
         $("#passcheck").show();
         $("#passcheck").html(
-            "**length of your password must be between 3 and 10"
+            "**Debe tener un largo minimo de 3 y maximo de 10 caracteres"
         );
         $("#passcheck").css("color", "red");
         passwordError = false;
@@ -74,7 +74,7 @@ $(document).ready(function () {
         let passwordValue = $("#password").val();
         if (passwordValue != confirmPasswordValue) {
         $("#conpasscheck").show();
-        $("#conpasscheck").html("**Password didn't Match");
+        $("#conpasscheck").html("**Las contraseñas no coinciden");
         $("#conpasscheck").css("color", "red");
         confirmPasswordError = false;
         return false;
